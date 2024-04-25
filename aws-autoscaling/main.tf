@@ -1,4 +1,4 @@
-# Creating Launch template for Web tier AutoScaling Group
+# Creating Launch template for Web tier AutoScaling Group!
 resource "aws_launch_template" "Web-LC" {
   name = var.launch-template-name
   image_id = "ami-09b90e09742640522"
